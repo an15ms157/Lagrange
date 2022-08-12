@@ -1,6 +1,6 @@
 ---
 layout: archive_blog
-title: Personal blog
+title: ইচ্ছাময়ের ডাইরি
 category: blog
 permalink: /blog
 ---

@@ -1,5 +1,5 @@
 ---
 layout: page
-title: ইচ্ছাময়ের ডাইরি
+title: Work documents
 permalink: /writing
 ---
