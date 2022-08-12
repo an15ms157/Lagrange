@@ -1,16 +1,24 @@
 ---
-layout: archive_photo
-title: Personal blog
+layout: default
+title: Photography
 category: photography
 permalink: /photography
+description: "An example photo gallery."
+
 ---
+<h1>
+  {{ page.title }}
+</h1>
 
-{% for post in site.post %}
-  {% if post.categories contains 'photography' %}
-    <div class="post">
-        <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p class="meta">Date: {{ post.date }}</p>
-    </div>
-  {% endif %}
-{% endfor %}
-
+<h2>Topics</h2>
+<ul>
+  {% comment %}
+    Get all "photo_set" pages and display a list with links to them.
+  {% endcomment %}
+  {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+  {% for photo_page in photo_pages %}
+    <li>
+      <a href="{{ photo_page.url | prepend: site.baseurl }}">{{ photo_page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
