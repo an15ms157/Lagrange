@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction"
-category: photography
+category: blog
 date: 2014-04-30
 ---
 

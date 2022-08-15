@@ -1,7 +1,7 @@
 ---
 layout: cv
 title: Carriculum Vitae
-permalink: /CV
+permalink: /fb766f3526a3cf4578dd8df5fb6e9b6e96d98635/CV
 ---
 
 # Abhishek Nath

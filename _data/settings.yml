@@ -8,10 +8,10 @@ google-ID: ''
 
 menu:
 - {name: 'About',       url: 'about.html'}
-- {name: 'Work',        url: 'writing.html'}
+- {name: 'Work',        url: 'work.html'}
 - {name: 'Blog',        url: 'blog.html'}
 - {name: 'Photography', url: 'photography.html'}
-- {name: 'CV',          url: 'CV.html'}
+- {name: 'Protected',   url: 'pswd.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
