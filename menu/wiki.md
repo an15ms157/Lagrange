@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Photography
+title: wiki
 category: photography
-permalink: /photography
-description: "An example photo gallery."
+permalink: /wiki
+description: "My go-to wiki"
 
 ---
 <h1>
