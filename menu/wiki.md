@@ -1,24 +1,19 @@
 ---
-layout: default
+layout: page
 title: wiki
-category: photography
 permalink: /wiki
-description: "My go-to wiki"
-
 ---
-<h1>
-  {{ page.title }}
-</h1>
+  <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
 
-<h2>Topics</h2>
-<ul>
-  {% comment %}
-    Get all "photo_set" pages and display a list with links to them.
-  {% endcomment %}
-  {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
-  {% for photo_page in photo_pages %}
-    <li>
-      <a href="{{ photo_page.url | prepend: site.baseurl }}">{{ photo_page.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<!-- THIS IS HOW YOU CAN COMMENT OUT IN HTML-->
+<p> 
+I am an experimental particle physics grad student working at Heidelberg ALICE group headed by prof Johanna Stachel. My current work is related to developments for run 5 for the ALICE experiment (ALICE 3) primarily focusing on photons reconstructed via Photon Conversion Method. 
+</p>
+
+### List of publication: 
+
+
+1. Violation of Wiedemann-Franz Law for a Hot Hadronic Matter created at NICA, FAIR and RHIC Energies using Non-extensive Statistics,<br/> 
+Eur. Phys. J. A (2019) 55: 125 [DOI: 10.1140/EPJA/I2019-12814-3](https://link.springer.com/article/10.1140/epja/i2019-12814-3)
+
+
