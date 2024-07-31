@@ -12,6 +12,14 @@
   margin-bottom: 4rem;
 }
 
+  /* The centered div */
+.centered-div {
+  width: 300px;            /* Set a width for the div */
+  padding: 20px;           /* Add some padding */
+  text-align: center;      /* Center text inside the div */
+  border-radius: 8px;      /* Rounded corners */
+}
+
 /*48em*/
 
 @media (max-width: $container-responsive-width) {
